@@ -1,0 +1,9 @@
+<html layout:decorate="~{layout}">
+<div layout:fragment="content">
+    <h1 th:href>야구쉽게알려주는사이트</h1>
+    <form th:action="@{/yagu/home}">
+        <input type="text" name="keyword">
+        <button type="submit">검색</button>
+    </form>
+</div>
+</html>
